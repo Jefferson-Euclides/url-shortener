@@ -6,6 +6,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Design and implement an API for short URL creation
 - Implement forwarding of short URLs to the original ones
 - There should be some form of persistent storage
+- Tests are mandatory
 
 ## Technologies
 - Java 8
