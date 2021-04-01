@@ -27,4 +27,6 @@ POST http://localhost:8080/?url={url-to-be-shortened} - Saves the URL and return
 
 GET localhost:8080/short/{encrypted-url} - This will be the return of the first one
 
+GET localhost:8080/actuator - To get other metrics of the API
+
 GET localhost:8080/metrics - To get the access metrics of all URL's
