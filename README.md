@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 - JUnit and Mockito
 
 ## How to compile and run the application with an example for each call
-Install: git clone https://github.com/Jefferson-Euclides/url-shortener/tree/master
+Install: git clone https://github.com/Jefferson-Euclides/url-shortener.git
 
 - Build: mvn package
 - Deploy: mvn spring-boot:run
