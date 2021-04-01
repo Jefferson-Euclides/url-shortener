@@ -25,8 +25,8 @@ Install: git clone https://github.com/Jefferson-Euclides/url-shortener/tree/mast
 ## Examples for each call
 POST http://localhost:8080/?url={url-to-be-shortened} - Saves the URL and return the shortened version
 
-GET localhost:8080/short/{encrypted-url} - This will be the return of the first one
+GET http://localhost:8080/short/{encrypted-url} - This will be the return of the first one
 
-GET localhost:8080/actuator - To get other metrics of the API
+GET http://localhost:8080/actuator - To get other metrics of the API
 
-GET localhost:8080/metrics - To get the access metrics of all URL's
+GET http://localhost:8080/metrics - To get the access metrics of all URL's
